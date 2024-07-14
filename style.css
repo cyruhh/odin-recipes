@@ -1,0 +1,10 @@
+.title, .list{
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+    font-family: Arial, Helvetica, "Times New Roman";
+}
+.list {
+    background-color: rgb(72, 231, 252);
+
+}
+
