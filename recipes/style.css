@@ -1,11 +1,47 @@
-.description {
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
 }
-.title, .list{
-    color: rgb(255, 255, 255);
-    background-color: rgb(56, 56, 56);
+.title .list{
     font-family: Arial, Helvetica, "Times New Roman";
 }
+.title {
+    background-color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border: solid ;
+    font-weight: 1000;
+    
+}
+body {
+    background-image: linear-gradient(to right, rgb(44, 138, 44), rgb(255, 255, 102));
+}
 .list {
-    background-color: rgb(72, 231, 252);
+    border: solid white;
+    padding: 5px
+}
+h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: solid white;
+}
+li {
+    border: solid white;
+    margin: 10px;
+}
+p {
+    border: solid white;
+    margin: 10px;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
